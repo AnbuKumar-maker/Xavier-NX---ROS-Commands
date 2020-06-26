@@ -1,0 +1,13 @@
+Open terminal and run the below 2 commands one after another
+
+cd catkin_ws/
+
+roscore
+
+open another terminal without closing the above terminal and run the below commands one after another
+
+cd catkin_ws/
+
+source devel/setup.bash
+
+rostopic list
